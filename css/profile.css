@@ -1,0 +1,33 @@
+		body  {	font-family: 'Yanone Kaffeesatz', sans-serif;
+				color:black;
+                  padding-top: 2rem;
+  padding-bottom: 2rem;
+              min-height: 75rem;
+  padding-top: 4.5rem;
+            }
+		h2    { font-size: 300%;}
+		h3    {	font-family: Henny Penny; font-size: 400%;
+				color:cornflowerblue;
+				-webkit-text-stroke:2px black;}
+
+
+
+
+.row {
+  margin-bottom: 1rem;
+}a
+.row .row {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(86, 61, 124, .15);
+  border: 1px solid rgba(86, 61, 124, .2);
+}
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
