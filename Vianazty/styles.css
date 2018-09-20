@@ -1,0 +1,126 @@
+/* Links - change color on hover */
+.nav a:hover {
+    background-color: blue;
+    color: black;
+}
+
+header, footer {
+    text-align: left;
+    color: #ffffff;
+    
+}
+
+header h1 {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 24pt;
+    text-align: center;
+    vertical-align: top;
+}
+nav { 
+    text-align: right;
+    background-color: #000000;
+}
+/* The navbar container */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    color: deeppink; 
+    
+}
+
+.hidden {
+    visibility: hidden;
+}
+.hidden :hover {
+    visibility: visible;
+}
+
+.menuitem {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 16pt;
+    text-align: center;
+    font-family: font-family: 'Audiowide', cursive;
+    font-weight: bold;
+    vertical-align: top;
+    padding: 5px;
+    width: 150px;
+    
+    
+}
+a:link, a:visited, a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body{ 
+    font-size: 24pt;
+    background-image: url("8231.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1300px, 100px, auto;
+    color: #ffffff;
+    }
+.firstsection {
+    font-family:'Cuprum', sans-serif;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 24pt;
+    text-align:justify ;
+    vertical-align: top;
+}
+
+
+.column{
+    width: 90%;
+    height: 150px;
+}
+.row{
+    width: 200px;
+    height: 200px;
+}
+
+
+footer p {
+    color: #ffffff;
+    display: inline-block;
+    font-size: 24pt; 
+    text-align: center;  
+    vertical-align: top;
+    font-family: 'Audiowide', cursive;
+    font-weight: bold;
+    padding: 6px;
+}
+
+
+
+.image {
+    
+    background-size: 300px, 300px, auto;
+}
+    
+.font1 {font-family: 'Amatic SC', cursive;}
+.font2 {font-family: 'Cuprum', sans-serif;}
+.font3 {font-family: 'Monoton', cursive;}
+.font4 {font-family: 'Audiowide', cursive;}
+.font5 {font-family: 'Special Elite', cursive;}
+.font6 {font-family: 'Cabin Sketch', cursive;}
+.font7 {font-family: 'Fredericka the Great', cursive;}
+.font8 {font-family: 'Libre Barcode 128 Text', cursive;}
+.font9 {font-family: 'Faster One', cursive;}
+.font10 {font-family: 'Raleway Dots', cursive;}
