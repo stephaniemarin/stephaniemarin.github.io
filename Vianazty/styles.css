@@ -36,12 +36,27 @@ nav {
     padding: 14px 16px;
     text-decoration: none;
 }
+.column{
+    width: 90%;
+    height: 150px;
+}
+.row2{
+    width: 200px;
+    height: 200px;
+}
+.description {
+    background: #ccebff;
+    border-radius: 15px 50px 30px 5px;
+}
 
 /* Links - change color on hover */
 .topnav a:hover {
-    color: deeppink; 
-    
+    color: deeppink;    
 }
+a i:hover {
+    color: deeppink;
+}
+
 
 .hidden {
     visibility: hidden;
@@ -53,13 +68,13 @@ nav {
 .menuitem {
     display: inline-block;
     color: #ffffff;
-    font-size: 16pt;
+    font-size: 14pt;
     text-align: center;
     font-family: font-family: 'Audiowide', cursive;
     font-weight: bold;
     vertical-align: top;
     padding: 5px;
-    width: 150px;
+    width: 155px;
     
     
 }
@@ -68,14 +83,21 @@ a:link, a:visited, a:active {
     text-decoration: none;
 }
 
+
 body{ 
-    font-size: 24pt;
+    font-size: 14pt;
     background-image: url("8231.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 1300px, 100px, auto;
+    background-attachment: scroll;
+    background-size: 1700px, 50px, auto;
+    object-fit: cover;
     color: #ffffff;
     }
+mediasound {
+    border-radius: 50%;
+    
+}
+
 .firstsection {
     font-family:'Cuprum', sans-serif;
     display: inline-block;
@@ -86,17 +108,9 @@ body{
 }
 
 
-.column{
-    width: 90%;
-    height: 150px;
-}
-.row{
-    width: 200px;
-    height: 200px;
-}
 
 
-footer p {
+footer p, a {
     color: #ffffff;
     display: inline-block;
     font-size: 24pt; 
@@ -104,7 +118,7 @@ footer p {
     vertical-align: top;
     font-family: 'Audiowide', cursive;
     font-weight: bold;
-    padding: 6px;
+    padding: 8px;
 }
 
 
